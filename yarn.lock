@@ -965,6 +965,18 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fawmi/vue-google-maps@^0.9.3":
+  version "0.9.51"
+  resolved "https://registry.yarnpkg.com/@fawmi/vue-google-maps/-/vue-google-maps-0.9.51.tgz#536cf4a1db605aa37ad344d6dbde488619ae7123"
+  integrity sha512-YUPOrLbDLOfbrqTynxPDAkg+ILNR6I2xYhxNhniuY0O0wVIG+FOXD5ubFlJc+2RxY9xJdAjMk4D4blf7dGtI3A==
+  dependencies:
+    "@googlemaps/markerclustererplus" "^1.2.10"
+
+"@googlemaps/markerclustererplus@^1.2.10":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@googlemaps/markerclustererplus/-/markerclustererplus-1.2.10.tgz#e1a97ea7ae137e00d633367be1d49f0a008fa8b3"
+  integrity sha512-HY4ev+D3kO1+9oQjtKTojxVtJIS/kSWJfry6cpKoXC97kBQc5Vguqu5x6pLnh+70N0Au+16Yl7iu4LZaIOTstw==
+
 "@hapi/hoek@^9.0.0":
   version "9.2.1"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.2.1.tgz#9551142a1980503752536b5050fd99f4a7f13b17"
@@ -3735,6 +3747,11 @@ joi@^17.4.0:
     "@sideway/formula" "^3.0.0"
     "@sideway/pinpoint" "^2.0.0"
 
+js-marker-clusterer@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/js-marker-clusterer/-/js-marker-clusterer-1.0.0.tgz#c94be85ae8896819e51c131f891dd2b55558dd17"
+  integrity sha1-yUvoWuiJaBnlHBMfiR3StVVY3Rc=
+
 js-message@1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/js-message/-/js-message-1.0.7.tgz#fbddd053c7a47021871bb8b2c95397cc17c20e47"
@@ -5695,6 +5712,13 @@ vue-eslint-parser@^8.0.1:
     esquery "^1.4.0"
     lodash "^4.17.21"
     semver "^7.3.5"
+
+vue-google-maps@^0.1.21:
+  version "0.1.21"
+  resolved "https://registry.yarnpkg.com/vue-google-maps/-/vue-google-maps-0.1.21.tgz#19b6fa3df39ff293dca1cf3925f4f287d0f95bac"
+  integrity sha1-Gbb6PfOf8pPcoc85JfTyh9D5W6w=
+  dependencies:
+    js-marker-clusterer "^1.0.0"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
