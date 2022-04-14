@@ -1,4 +1,4 @@
-# gmaps
+# mufti-maps
 
 ## Project setup
 ```
